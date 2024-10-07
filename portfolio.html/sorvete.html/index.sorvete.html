@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorvetes Tropicais</title>
+    <style>
+        /* Estilos Globais */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Navegação */
+        nav ul {
+            list-style: none;
+            background-color: #ffd700;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff6347;
+        }
+
+        /* Seções */
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h2 {
+            color: #ff6347;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Grid de Sabores */
+        .grid {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .card h3 {
+            margin: 0.5rem 0;
+            color: #333;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        /* Seção de Contato */
+        #contato p {
+            margin: 0.5rem 0;
+        }
+
+        a {
+            color: #ff6347;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sorvetes Tropicais</h1>
+        <p>Refresque-se com os sabores mais exóticos!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sabores">Sabores</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="sabores" class="section">
+        <h2>Sabores Exóticos</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="C:\Users\maced\Desktop\TODAS AS PASTAS\portfolio.html\assets\manga.jpg" alt="Sorvete de Manga">
+                <h3>Sorvete de Manga</h3>
+                <p>Delicioso sorvete de manga tropical, perfeito para dias ensolarados!</p>
+            </div>
+            <div class="card">
+                <img src="C:\Users\maced\Desktop\TODAS AS PASTAS\portfolio.html\assets\maracuja.jpg" alt="Sorvete de Maracujá">
+                <h3>Sorvete de Maracujá</h3>
+                <p>Sorvete refrescante de maracujá com um toque de limão.</p>
+            </div>
+            <div class="card">
+                <img src="C:\Users\maced\Desktop\TODAS AS PASTAS\portfolio.html\assets\coco.webp" alt="Sorvete de Coco">
+                <h3>Sorvete de Coco</h3>
+                <p>Leve e cremoso, nosso sorvete de coco é irresistível.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <h2>Sobre Nós</h2>
+        <p>Na <strong>Sorvetes Tropicais</strong>, acreditamos que o sabor do verão deve ser apreciado o ano inteiro. Desde o nosso início, nossa missão tem sido criar sorvetes únicos que capturam a essência das frutas tropicais, com ingredientes frescos e naturais. Cada sabor é cuidadosamente desenvolvido para proporcionar uma explosão de frescor em cada colherada.</p>
+        <p>Com uma equipe apaixonada por inovação e qualidade, nossos sorvetes são feitos artesanalmente, garantindo uma experiência deliciosa e autêntica. Queremos que cada cliente tenha uma viagem sensorial a destinos tropicais, sem sair de casa. Venha descobrir nossos sabores e se refrescar com a natureza!</p>
+    </section>    
+
+    <section id="contato" class="section">
+        <h2>Contato</h2>
+        <p>Entre em contato para saber mais sobre nossos produtos ou encomendar para festas e eventos.</p>
+        <p>Email: <a href="mailto:contato@sorvetestropicais.com">xxxxxxx@gmail.com</a></p>
+    </section>
+
+</body>
+</html>

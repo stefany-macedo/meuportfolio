@@ -1,0 +1,302 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #3e3e72;
+    color: #ffffff;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #3e3e72;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #b085f5;
+}
+
+/* Seção Hero (Home) */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9dbfa;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b085f5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #9e69d6;
+}
+
+/* Seção de Conteúdo */
+.content {
+    padding: 60px 10%;
+}
+
+.content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+    background-color: #bd81ee;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+/* Links das Redes Sociais */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links li {
+    margin: 0;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #b085f5;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+    color: #9e69d6;
+}
+#about-me {
+    padding: 40px;
+    background-color: #f4f4f4;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .about-photo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  /* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.7;
+    transition: background-color 0.3s ease;
+}
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    color: #8A2BE2;
+}
+
+header {
+    background: linear-gradient(to right, #6a0dad, #c71585);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+}
+
+.header-content h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.header-content p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.image-container {
+    max-width: 50%;
+    text-align: center;
+}
+
+.flower-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.flower-image:hover {
+    transform: scale(1.05);
+}
+
+.description {
+    max-width: 45%;
+    margin-left: 30px;
+    font-size: 1.2em;
+}
+
+.description h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.description p {
+    margin-bottom: 20px;
+}
+
+.details {
+    text-align: center;
+    background-color: #8A2BE2;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.details h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.details ul {
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+.details li {
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.details li:hover {
+    color: #ffeb3b;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+/* Animações */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .image-container, .description {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .description {
+        margin-left: 0;
+    }
+} 
